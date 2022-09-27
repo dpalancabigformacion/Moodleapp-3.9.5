@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.bigtv.mobile",
+  "applicationId": "com.cenaform.mobile",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "resources-debug.ap_",
       "properties": {
-        "packageId": "com.bigtv.mobile",
+        "packageId": "com.cenaform.mobile",
         "split": "",
         "minSdkVersion": "22"
       }

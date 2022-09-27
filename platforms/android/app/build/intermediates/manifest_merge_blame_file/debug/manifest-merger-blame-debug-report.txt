@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.bigtv.mobile"
+3    package="com.cenaform.mobile"
 4    android:hardwareAccelerated="true"
 5    android:versionCode="39503"
 6    android:versionName="3.9.5" >
@@ -208,12 +208,12 @@
 101
 102    <permission
 102-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:28:5-30:47
-103        android:name="com.bigtv.mobile.permission.C2D_MESSAGE"
+103        android:name="com.cenaform.mobile.permission.C2D_MESSAGE"
 103-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:29:9-63
 104        android:protectionLevel="signature" />
 104-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:30:9-44
 105
-106    <uses-permission android:name="com.bigtv.mobile.permission.C2D_MESSAGE" />
+106    <uses-permission android:name="com.cenaform.mobile.permission.C2D_MESSAGE" />
 106-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:32:5-79
 106-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:32:22-76
 107
@@ -234,7 +234,7 @@
 115-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:5:173-208
 116        <activity
 116-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:6:9-27:20
-117            android:name="com.bigtv.mobile.MainActivity"
+117            android:name="com.cenaform.mobile.MainActivity"
 117-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:6:198-225
 118            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize"
 118-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:6:19-128
@@ -311,7 +311,7 @@
 154        <provider
 155            android:name="com.darryncampbell.cordova.plugin.intent.CordovaPluginIntentFileProvider"
 155-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:168-255
-156            android:authorities="com.bigtv.mobile.darryncampbell.cordova.plugin.intent.fileprovider"
+156            android:authorities="com.cenaform.mobile.darryncampbell.cordova.plugin.intent.fileprovider"
 156-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:19-107
 157            android:exported="false"
 157-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:108-132
@@ -327,7 +327,7 @@
 163        <provider
 164            android:name="de.appplant.cordova.plugin.notification.util.AssetProvider"
 164-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:146-219
-165            android:authorities="com.bigtv.mobile.localnotifications.provider"
+165            android:authorities="com.cenaform.mobile.localnotifications.provider"
 165-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:19-85
 166            android:exported="false"
 166-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:86-110
@@ -385,7 +385,7 @@
 195-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:43-101
 196            android:exported="true"
 196-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:19-42
-197            android:permission="com.bigtv.mobile.permission.PushHandlerActivity" />
+197            android:permission="com.cenaform.mobile.permission.PushHandlerActivity" />
 197-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:102-170
 198
 199        <receiver android:name="com.adobe.phonegap.push.BackgroundActionButtonHandler" />
@@ -419,7 +419,7 @@
 213        <provider
 214            android:name="org.apache.cordova.camera.FileProvider"
 214-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:149-202
-215            android:authorities="com.bigtv.mobile.cordova.plugin.camera.provider"
+215            android:authorities="com.cenaform.mobile.cordova.plugin.camera.provider"
 215-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:19-88
 216            android:exported="false"
 216-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:89-113
@@ -435,7 +435,7 @@
 222        <provider
 223            android:name="io.github.pwlin.cordova.plugins.fileopener2.FileProvider"
 223-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:139-210
-224            android:authorities="com.bigtv.mobile.fileOpener2.provider"
+224            android:authorities="com.cenaform.mobile.fileOpener2.provider"
 224-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:19-78
 225            android:exported="false"
 225-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:79-103
@@ -512,7 +512,7 @@
 265-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:46:17-81
 265-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:46:25-78
 266
-267                <category android:name="com.bigtv.mobile" />
+267                <category android:name="com.cenaform.mobile" />
 267-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:48:17-61
 267-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:48:27-58
 268            </intent-filter>
@@ -539,7 +539,7 @@
 282-->[com.google.firebase:firebase-common:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/3460f72ba36aafda259a7a3124f7b4f1/firebase-common-16.0.0/AndroidManifest.xml:9:9-13:39
 283            android:name="com.google.firebase.provider.FirebaseInitProvider"
 283-->[com.google.firebase:firebase-common:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/3460f72ba36aafda259a7a3124f7b4f1/firebase-common-16.0.0/AndroidManifest.xml:10:13-77
-284            android:authorities="com.bigtv.mobile.firebaseinitprovider"
+284            android:authorities="com.cenaform.mobile.firebaseinitprovider"
 284-->[com.google.firebase:firebase-common:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/3460f72ba36aafda259a7a3124f7b4f1/firebase-common-16.0.0/AndroidManifest.xml:11:13-72
 285            android:exported="false"
 285-->[com.google.firebase:firebase-common:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/3460f72ba36aafda259a7a3124f7b4f1/firebase-common-16.0.0/AndroidManifest.xml:12:13-37

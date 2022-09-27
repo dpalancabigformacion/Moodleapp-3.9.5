@@ -1,6 +1,6 @@
 {
-    "app_id": "com.bigtv.mobile",
-    "appname": "BiGtv",
+    "app_id": "com.cenaform.mobile",
+    "appname": "Cenaform",
     "versioncode": 3950,
     "versionname": "3.9.5",
     "cache_update_frequency_usually": 420000,
@@ -70,9 +70,9 @@
         "low": 110,
         "high": 120
     },
-    "customurlscheme": "bigtv",
-    "siteurl": "https://virtual.bigteam.es",
-    "sitename": "BiGtv",
+    "customurlscheme": "cenaform",
+    "siteurl": "https://campus.cenaform.es",
+    "sitename": "Cenaform",
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
@@ -94,7 +94,7 @@
     "forceLoginLogo": false,
     "ioswebviewscheme": "moodleappfs",
     "appstores": {
-        "android": "com.bigtv.mobile",
+        "android": "com.cenaform.mobile",
         "ios": "id633359593"
     },
     "wsrequestqueuelimit": 10,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bigtv.mobile"
+    package="com.cenaform.mobile"
     android:hardwareAccelerated="true"
     android:versionCode="39503"
     android:versionName="3.9.5" >
@@ -100,10 +100,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.bigtv.mobile.permission.C2D_MESSAGE"
+        android:name="com.cenaform.mobile.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.bigtv.mobile.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.cenaform.mobile.permission.C2D_MESSAGE" />
 
     <application
         android:debuggable="true"
@@ -114,7 +114,7 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.bigtv.mobile.MainActivity"
+            android:name="com.cenaform.mobile.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize"
             android:label="@string/activity_name"
             android:launchMode="singleTop"
@@ -153,7 +153,7 @@
 
         <provider
             android:name="com.darryncampbell.cordova.plugin.intent.CordovaPluginIntentFileProvider"
-            android:authorities="com.bigtv.mobile.darryncampbell.cordova.plugin.intent.fileprovider"
+            android:authorities="com.cenaform.mobile.darryncampbell.cordova.plugin.intent.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -162,7 +162,7 @@
         </provider>
         <provider
             android:name="de.appplant.cordova.plugin.notification.util.AssetProvider"
-            android:authorities="com.bigtv.mobile.localnotifications.provider"
+            android:authorities="com.cenaform.mobile.localnotifications.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -194,7 +194,7 @@
         <activity
             android:name="com.adobe.phonegap.push.PushHandlerActivity"
             android:exported="true"
-            android:permission="com.bigtv.mobile.permission.PushHandlerActivity" />
+            android:permission="com.cenaform.mobile.permission.PushHandlerActivity" />
 
         <receiver android:name="com.adobe.phonegap.push.BackgroundActionButtonHandler" />
         <receiver android:name="com.adobe.phonegap.push.PushDismissedHandler" />
@@ -212,7 +212,7 @@
 
         <provider
             android:name="org.apache.cordova.camera.FileProvider"
-            android:authorities="com.bigtv.mobile.cordova.plugin.camera.provider"
+            android:authorities="com.cenaform.mobile.cordova.plugin.camera.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -221,7 +221,7 @@
         </provider>
         <provider
             android:name="io.github.pwlin.cordova.plugins.fileopener2.FileProvider"
-            android:authorities="com.bigtv.mobile.fileOpener2.provider"
+            android:authorities="com.cenaform.mobile.fileOpener2.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -264,7 +264,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.bigtv.mobile" />
+                <category android:name="com.cenaform.mobile" />
             </intent-filter>
         </receiver>
         <!--
@@ -281,7 +281,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.bigtv.mobile.firebaseinitprovider"
+            android:authorities="com.cenaform.mobile.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
