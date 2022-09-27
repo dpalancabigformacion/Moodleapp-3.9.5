@@ -1,13 +1,13 @@
 {
-    "app_id": "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
+    "app_id": "com.bigtv.mobile",
+    "appname": "BiGtv",
     "versioncode": 3950,
     "versionname": "3.9.5",
     "cache_update_frequency_usually": 420000,
     "cache_update_frequency_often": 1200000,
     "cache_update_frequency_sometimes": 3600000,
     "cache_update_frequency_rarely": 43200000,
-    "default_lang": "en",
+    "default_lang": "es",
     "languages": {
         "af": "Afrikaans",
         "ar": "عربي",
@@ -30,6 +30,7 @@
         "he": "עברית",
         "hi": "हिंदी",
         "hr": "Hrvatski",
+        "hsb": "Hornjoserbsski",
         "hu": "magyar",
         "hy": "Հայերեն",
         "id": "Indonesian",
@@ -38,6 +39,7 @@
         "km": "ខ្មែរ",
         "kn": "ಕನ್ನಡ",
         "ko": "한국어",
+        "lo": "ລາວ",
         "lt": "Lietuvių",
         "lv": "Latviešu",
         "mn": "Монгол",
@@ -62,41 +64,40 @@
         "zh-tw": "正體中文"
     },
     "wsservice": "moodle_mobile_app",
-    "wsextservice": "local_mobile",
-    "demo_sites": {
-        "student": {
-            "url": "https:\/\/school.moodledemo.net",
-            "username": "student",
-            "password": "moodle"
-        },
-        "teacher": {
-            "url": "https:\/\/school.moodledemo.net",
-            "username": "teacher",
-            "password": "moodle"
-        }
-    },
+    "demo_sites": {},
     "zoomlevels": {
         "normal": 100,
         "low": 110,
         "high": 120
     },
-    "customurlscheme": "moodlemobile",
-    "siteurl": "",
-    "sitename": "",
+    "customurlscheme": "bigtv",
+    "siteurl": "https://virtual.bigteam.es",
+    "sitename": "BiGtv",
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
-    "privacypolicy": "https:\/\/moodle.net\/moodle-app-privacy\/",
-    "notificoncolor": "#f98012",
+    "privacypolicy": "https:\/\/bigteam.es\/index.php\/politica-de-privacidad\/",
+    "notificoncolor": "#000000",
+    "statusbarbg": false,
+    "statusbarlighttext": false,
+    "statusbarbgios": "#000",
+    "statusbarlighttextios": true,
+    "statusbarbgandroid": "#000",
+    "statusbarlighttextandroid": true,
+    "statusbarbgremotetheme": "#000000",
+    "statusbarlighttextremotetheme": true,
     "enableanalytics": false,
     "enableonboarding": true,
     "forceColorScheme": "",
     "forceLoginLogo": false,
     "ioswebviewscheme": "moodleappfs",
     "appstores": {
-        "android": "com.moodle.moodlemobile",
+        "android": "com.bigtv.mobile",
         "ios": "id633359593"
-    }
+    },
+    "wsrequestqueuelimit": 10,
+    "wsrequestqueuedelay": 100,
+    "calendarreminderdefaultvalue": 3600
 }

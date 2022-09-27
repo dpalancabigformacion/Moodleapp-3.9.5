@@ -1,0 +1,58 @@
+{
+  "_from": "git+https://github.com/moodlemobile/cordova-plugin-prevent-override.git",
+  "_id": "cordova-plugin-prevent-override@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-prevent-override",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/moodlemobile/cordova-plugin-prevent-override.git",
+    "rawSpec": "https://github.com/moodlemobile/cordova-plugin-prevent-override.git",
+    "saveSpec": "git+https://github.com/moodlemobile/cordova-plugin-prevent-override.git",
+    "fetchSpec": "https://github.com/moodlemobile/cordova-plugin-prevent-override.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "git+https://github.com/moodlemobile/cordova-plugin-prevent-override.git#49507eda3c929e488e58b8402cfc7e1521ebc400",
+  "_spec": "https://github.com/moodlemobile/cordova-plugin-prevent-override.git",
+  "_where": "/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5",
+  "author": {
+    "name": "Moodle Pty Ltd"
+  },
+  "bugs": {
+    "url": "https://github.com/moodlemobile/cordova-plugin-prevent-override/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-prevent-override",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Prevent Override Plugin",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/moodlemobile/cordova-plugin-prevent-override#readme",
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-prevent-override",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moodlemobile/cordova-plugin-prevent-override.git"
+  },
+  "version": "1.0.0"
+}
