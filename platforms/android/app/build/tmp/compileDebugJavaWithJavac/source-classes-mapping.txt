@@ -19,8 +19,6 @@ com/silkimen/cordovahttp/CordovaHttpResponse.java
  com.silkimen.cordovahttp.CordovaHttpResponse
 io/sqlc/SQLiteConnectorDatabase.java
  io.sqlc.SQLiteConnectorDatabase
-com/cenaform/mobile/BuildConfig.java
- com.cenaform.mobile.BuildConfig
 org/apache/cordova/file/ContentFilesystem.java
  org.apache.cordova.file.ContentFilesystem
 cordova/plugins/Diagnostic_Location.java
@@ -59,6 +57,8 @@ io/sqlc/SQLitePlugin.java
 com/ionicframework/cordova/webview/IonicWebView.java
  com.ionicframework.cordova.webview.IonicWebView
  com.ionicframework.cordova.webview.IonicWebView$1
+com/safeformacion/mobile/BuildConfig.java
+ com.safeformacion.mobile.BuildConfig
 com/silkimen/http/HttpBodyDecoder.java
  com.silkimen.http.HttpBodyDecoder
 org/apache/cordova/media/AudioHandler.java
@@ -266,6 +266,8 @@ org/apache/cordova/media/AudioPlayer.java
  org.apache.cordova.media.AudioPlayer$1
  org.apache.cordova.media.AudioPlayer$MODE
  org.apache.cordova.media.AudioPlayer$STATE
+com/safeformacion/mobile/MainActivity.java
+ com.safeformacion.mobile.MainActivity
 de/appplant/cordova/plugin/notification/trigger/DateTrigger.java
  de.appplant.cordova.plugin.notification.trigger.DateTrigger
  de.appplant.cordova.plugin.notification.trigger.DateTrigger$Unit
@@ -415,5 +417,3 @@ org/apache/cordova/inappbrowser/InAppBrowserDialog.java
  org.apache.cordova.inappbrowser.InAppBrowserDialog
 de/appplant/cordova/plugin/notification/util/AssetProvider.java
  de.appplant.cordova.plugin.notification.util.AssetProvider
-com/cenaform/mobile/MainActivity.java
- com.cenaform.mobile.MainActivity

@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.cenaform.mobile",
+  "applicationId": "com.safeformacion.mobile",
   "variantName": "debug",
   "elements": [
     {

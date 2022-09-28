@@ -87,7 +87,7 @@ INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platfo
 INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:2:1-91:12
 INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:2:1-91:12
 	package
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:2:102-131
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:2:102-136
 		INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -97,7 +97,7 @@ INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platfo
 	android:hardwareAccelerated
 		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:2:132-190
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:2:137-195
 	android:versionCode
 		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:2:46-73
 		INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml
@@ -156,7 +156,7 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/neither
 		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:5:53-87
 	android:usesCleartextTraffic
 		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:5:173-208
-activity#com.cenaform.mobile.MainActivity
+activity#com.safeformacion.mobile.MainActivity
 ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:6:9-27:20
 	android:label
 		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:6:129-166
@@ -580,7 +580,7 @@ ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/cach
 		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:30:9-44
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:29:9-63
-permission#com.cenaform.mobile.permission.C2D_MESSAGE
+permission#com.safeformacion.mobile.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
 		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:30:9-44
@@ -590,7 +590,7 @@ uses-permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:32:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:32:22-76
-uses-permission#com.cenaform.mobile.permission.C2D_MESSAGE
+uses-permission#com.safeformacion.mobile.permission.C2D_MESSAGE
 ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:32:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:32:22-76
@@ -614,7 +614,7 @@ ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/cach
 		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:42:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
 ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:45:13-49:29
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.cenaform.mobile
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.safeformacion.mobile
 ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:45:13-49:29
 action#com.google.android.c2dm.intent.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:46:17-81
@@ -624,7 +624,7 @@ category#${applicationId}
 ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:48:17-61
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:48:27-58
-category#com.cenaform.mobile
+category#com.safeformacion.mobile
 ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:48:17-61
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:48:27-58
