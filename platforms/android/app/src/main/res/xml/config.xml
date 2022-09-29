@@ -128,8 +128,8 @@
         <param name="android-package" value="cordova.plugins.Diagnostic_External_Storage" />
         <param name="onload" value="true" />
     </feature>
-    <name>SAFE formación</name>
-    <description>SAFE formación app</description>
+    <name>Safe formación</name>
+    <description>Safe formación app</description>
     <author email="dpalancamartinez@gmail.com" href="http://moodle.com">Moodle Mobile team</author>
     <content src="index.html" />
     <access origin="*" />

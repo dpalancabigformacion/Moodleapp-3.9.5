@@ -1,6 +1,6 @@
 {
     "app_id": "com.safeformacion.mobile",
-    "appname": "SAFE formación",
+    "appname": "Safe formación",
     "versioncode": 3950,
     "versionname": "3.9.5",
     "cache_update_frequency_usually": 420000,
@@ -70,9 +70,9 @@
         "low": 110,
         "high": 120
     },
-    "customurlscheme": "SAFE formación",
+    "customurlscheme": "Safe formación",
     "siteurl": "https://campus.safeformacion.com",
-    "sitename": "SAFE formación",
+    "sitename": "Safe formación",
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,

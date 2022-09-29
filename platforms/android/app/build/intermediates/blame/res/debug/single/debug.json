@@ -52,12 +52,12 @@
         "source": "/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/res/mipmap-xxhdpi-v26/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_next_item.png.flat",
-        "source": "/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/res/drawable-xhdpi/ic_action_next_item.png"
-    },
-    {
         "merged": "/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_smallicon.png.flat",
         "source": "/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/res/mipmap-mdpi/smallicon.png"
+    },
+    {
+        "merged": "/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/res/drawable-xhdpi/ic_action_next_item.png"
     },
     {
         "merged": "/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_next_item.png.flat",

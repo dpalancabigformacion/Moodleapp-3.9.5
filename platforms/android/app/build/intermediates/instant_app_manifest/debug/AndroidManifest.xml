@@ -153,15 +153,6 @@
         </activity>
 
         <provider
-            android:name="com.darryncampbell.cordova.plugin.intent.CordovaPluginIntentFileProvider"
-            android:authorities="com.safeformacion.mobile.darryncampbell.cordova.plugin.intent.fileprovider"
-            android:exported="false"
-            android:grantUriPermissions="true" >
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/provider_paths" />
-        </provider>
-        <provider
             android:name="de.appplant.cordova.plugin.notification.util.AssetProvider"
             android:authorities="com.safeformacion.mobile.localnotifications.provider"
             android:exported="false"
@@ -233,6 +224,16 @@
         <meta-data
             android:name="firebase_analytics_collection_deactivated"
             android:value="true" />
+
+        <provider
+            android:name="com.darryncampbell.cordova.plugin.intent.CordovaPluginIntentFileProvider"
+            android:authorities="com.safeformacion.mobile.darryncampbell.cordova.plugin.intent.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
 
         <activity
             android:name="com.journeyapps.barcodescanner.CaptureActivity"

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget android-versionCode="39503" id="com.safeformacion.mobile" ios-CFBundleVersion="3.9.5.3" version="3.9.5" versionCode="39503" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>SAFE formación</name>
-    <description>SAFE formación app</description>
+    <name>Safe formación</name>
+    <description>Safe formación app</description>
     <author email="dpalancamartinez@gmail.com" href="http://moodle.com">Moodle Mobile team</author>
     <content src="index.html" />
     <access origin="*" />

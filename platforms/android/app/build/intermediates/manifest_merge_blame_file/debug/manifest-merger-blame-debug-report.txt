@@ -309,258 +309,259 @@
 152        </activity>
 153
 154        <provider
-155            android:name="com.darryncampbell.cordova.plugin.intent.CordovaPluginIntentFileProvider"
-155-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:168-255
-156            android:authorities="com.safeformacion.mobile.darryncampbell.cordova.plugin.intent.fileprovider"
-156-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:19-107
+155            android:name="de.appplant.cordova.plugin.notification.util.AssetProvider"
+155-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:146-219
+156            android:authorities="com.safeformacion.mobile.localnotifications.provider"
+156-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:19-85
 157            android:exported="false"
-157-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:108-132
+157-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:86-110
 158            android:grantUriPermissions="true" >
-158-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:133-167
+158-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:111-145
 159            <meta-data
-159-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:13-116
+159-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:13-134
 160                android:name="android.support.FILE_PROVIDER_PATHS"
 160-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:24-74
-161                android:resource="@xml/provider_paths" />
-161-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:75-113
+161                android:resource="@xml/localnotification_provider_paths" />
+161-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:75-131
 162        </provider>
-163        <provider
-164            android:name="de.appplant.cordova.plugin.notification.util.AssetProvider"
-164-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:146-219
-165            android:authorities="com.safeformacion.mobile.localnotifications.provider"
-165-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:19-85
-166            android:exported="false"
-166-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:86-110
-167            android:grantUriPermissions="true" >
-167-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:111-145
-168            <meta-data
-168-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:13-116
-169                android:name="android.support.FILE_PROVIDER_PATHS"
-169-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:24-74
-170                android:resource="@xml/localnotification_provider_paths" />
-170-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:75-113
-171        </provider>
-172
-173        <receiver
-173-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:9-122
-174            android:name="de.appplant.cordova.plugin.localnotification.TriggerReceiver"
-174-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:44-119
-175            android:exported="false" />
-175-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:19-43
-176        <receiver
-176-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:35:9-120
-177            android:name="de.appplant.cordova.plugin.localnotification.ClearReceiver"
-177-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:35:44-117
-178            android:exported="false" />
-178-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:35:19-43
-179
-180        <service
-180-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:36:9-119
-181            android:name="de.appplant.cordova.plugin.localnotification.ClickReceiver"
-181-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:36:43-116
-182            android:exported="false" />
-182-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:36:18-42
-183
-184        <receiver
-184-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:9-42:20
-185            android:name="de.appplant.cordova.plugin.localnotification.RestoreReceiver"
-185-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:75-150
-186            android:directBootAware="true"
-186-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:19-49
-187            android:exported="false" >
-187-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:50-74
-188            <intent-filter>
-188-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:38:13-41:29
-189                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
-189-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:39:17-86
-189-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:39:25-83
-190                <action android:name="android.intent.action.BOOT_COMPLETED" />
-190-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:17-79
-190-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:25-76
-191            </intent-filter>
-192        </receiver>
-193
-194        <activity
-195            android:name="com.adobe.phonegap.push.PushHandlerActivity"
-195-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:43-101
-196            android:exported="true"
-196-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:19-42
-197            android:permission="com.safeformacion.mobile.permission.PushHandlerActivity" />
-197-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:102-170
-198
-199        <receiver android:name="com.adobe.phonegap.push.BackgroundActionButtonHandler" />
-199-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:44:9-90
-199-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:44:19-87
-200        <receiver android:name="com.adobe.phonegap.push.PushDismissedHandler" />
-200-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:45:9-81
-200-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:45:19-78
-201
-202        <service android:name="com.adobe.phonegap.push.FCMService" >
-202-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:46:9-50:19
-202-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:46:18-67
-203            <intent-filter>
-203-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:47:13-49:29
-204                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-204-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:48:17-78
-204-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:48:25-75
-205            </intent-filter>
-206        </service>
-207        <service android:name="com.adobe.phonegap.push.PushInstanceIDListenerService" >
-207-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:9-55:19
-207-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:18-86
-208            <intent-filter>
-208-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:52:13-54:29
-209                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-209-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:17-80
-209-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:25-77
-210            </intent-filter>
-211        </service>
-212
+163
+164        <receiver
+164-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:9-122
+165            android:name="de.appplant.cordova.plugin.localnotification.TriggerReceiver"
+165-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:44-119
+166            android:exported="false" />
+166-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:19-43
+167        <receiver
+167-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:32:9-120
+168            android:name="de.appplant.cordova.plugin.localnotification.ClearReceiver"
+168-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:32:44-117
+169            android:exported="false" />
+169-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:32:19-43
+170
+171        <service
+171-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:33:9-119
+172            android:name="de.appplant.cordova.plugin.localnotification.ClickReceiver"
+172-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:33:43-116
+173            android:exported="false" />
+173-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:33:18-42
+174
+175        <receiver
+175-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:9-39:20
+176            android:name="de.appplant.cordova.plugin.localnotification.RestoreReceiver"
+176-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:75-150
+177            android:directBootAware="true"
+177-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:19-49
+178            android:exported="false" >
+178-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:50-74
+179            <intent-filter>
+179-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:35:13-38:29
+180                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+180-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:36:17-86
+180-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:36:25-83
+181                <action android:name="android.intent.action.BOOT_COMPLETED" />
+181-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:17-79
+181-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:25-76
+182            </intent-filter>
+183        </receiver>
+184
+185        <activity
+186            android:name="com.adobe.phonegap.push.PushHandlerActivity"
+186-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:43-101
+187            android:exported="true"
+187-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:19-42
+188            android:permission="com.safeformacion.mobile.permission.PushHandlerActivity" />
+188-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:102-170
+189
+190        <receiver android:name="com.adobe.phonegap.push.BackgroundActionButtonHandler" />
+190-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:41:9-90
+190-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:41:19-87
+191        <receiver android:name="com.adobe.phonegap.push.PushDismissedHandler" />
+191-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:42:9-81
+191-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:42:19-78
+192
+193        <service android:name="com.adobe.phonegap.push.FCMService" >
+193-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:9-47:19
+193-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:18-67
+194            <intent-filter>
+194-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:44:13-46:29
+195                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+195-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:45:17-78
+195-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:45:25-75
+196            </intent-filter>
+197        </service>
+198        <service android:name="com.adobe.phonegap.push.PushInstanceIDListenerService" >
+198-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:48:9-52:19
+198-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:48:18-86
+199            <intent-filter>
+199-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:49:13-51:29
+200                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+200-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:50:17-80
+200-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:50:25-77
+201            </intent-filter>
+202        </service>
+203
+204        <provider
+205            android:name="org.apache.cordova.camera.FileProvider"
+205-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:149-202
+206            android:authorities="com.safeformacion.mobile.cordova.plugin.camera.provider"
+206-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:19-88
+207            android:exported="false"
+207-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:89-113
+208            android:grantUriPermissions="true" >
+208-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:114-148
+209            <meta-data
+209-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:13-134
+210                android:name="android.support.FILE_PROVIDER_PATHS"
+210-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:24-74
+211                android:resource="@xml/camera_provider_paths" />
+211-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:75-131
+212        </provider>
 213        <provider
-214            android:name="org.apache.cordova.camera.FileProvider"
-214-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:149-202
-215            android:authorities="com.safeformacion.mobile.cordova.plugin.camera.provider"
-215-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:19-88
+214            android:name="io.github.pwlin.cordova.plugins.fileopener2.FileProvider"
+214-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:139-210
+215            android:authorities="com.safeformacion.mobile.fileOpener2.provider"
+215-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:19-78
 216            android:exported="false"
-216-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:89-113
+216-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:79-103
 217            android:grantUriPermissions="true" >
-217-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:114-148
+217-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:104-138
 218            <meta-data
-218-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:13-116
+218-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:13-134
 219                android:name="android.support.FILE_PROVIDER_PATHS"
 219-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:24-74
-220                android:resource="@xml/camera_provider_paths" />
-220-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:75-113
+220                android:resource="@xml/opener_paths" />
+220-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:75-131
 221        </provider>
-222        <provider
-223            android:name="io.github.pwlin.cordova.plugins.fileopener2.FileProvider"
-223-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:139-210
-224            android:authorities="com.safeformacion.mobile.fileOpener2.provider"
-224-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:19-78
-225            android:exported="false"
-225-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:79-103
-226            android:grantUriPermissions="true" >
-226-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:104-138
-227            <meta-data
-227-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:13-116
-228                android:name="android.support.FILE_PROVIDER_PATHS"
-228-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:24-74
-229                android:resource="@xml/opener_paths" />
-229-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:75-113
-230        </provider>
-231
-232        <meta-data
-232-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:62:9-100
-233            android:name="firebase_analytics_collection_deactivated"
-233-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:62:20-76
-234            android:value="true" />
-234-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:62:77-97
-235
-236        <activity
-236-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:46:9-52:63
-237            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-237-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:47:13-74
-238            android:clearTaskOnLaunch="true"
-238-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:48:13-45
-239            android:screenOrientation="sensorLandscape"
-239-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:49:13-56
-240            android:stateNotNeeded="true"
-240-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:50:13-42
-241            android:theme="@style/zxing_CaptureTheme"
-241-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:51:13-54
-242            android:windowSoftInputMode="stateAlwaysHidden" />
-242-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:52:13-60
-243        <!--
-244             FirebaseMessagingService performs security checks at runtime,
-245             no need for explicit permissions despite exported="true"
-246        -->
-247        <service
-247-->[com.google.firebase:firebase-messaging:17.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/8a8abe27abb58bdb3b8099d8a4efbfd6/firebase-messaging-17.0.0/AndroidManifest.xml:28:9-34:19
-248            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-248-->[com.google.firebase:firebase-messaging:17.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/8a8abe27abb58bdb3b8099d8a4efbfd6/firebase-messaging-17.0.0/AndroidManifest.xml:29:13-82
-249            android:exported="true" >
-249-->[com.google.firebase:firebase-messaging:17.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/8a8abe27abb58bdb3b8099d8a4efbfd6/firebase-messaging-17.0.0/AndroidManifest.xml:30:13-36
-250            <intent-filter android:priority="-500" >
-250-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:47:13-49:29
-251                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-251-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:48:17-78
-251-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:48:25-75
-252            </intent-filter>
-253        </service>
-254        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
-254-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:35:9-39:19
-254-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:35:18-89
-255            <meta-data
-255-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:36:13-38:85
-256                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-256-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:37:17-96
-257                android:value="com.google.firebase.components.ComponentRegistrar" />
-257-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:38:17-82
-258        </service>
-259
-260        <receiver
-260-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:41:9-50:20
-261            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-261-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:42:13-78
-262            android:exported="true"
-262-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:43:13-36
-263            android:permission="com.google.android.c2dm.permission.SEND" >
-263-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:44:13-73
-264            <intent-filter>
-264-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:45:13-49:29
-265                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-265-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:46:17-81
-265-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:46:25-78
-266
-267                <category android:name="com.safeformacion.mobile" />
-267-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:48:17-61
-267-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:48:27-58
-268            </intent-filter>
-269        </receiver>
-270        <!--
-271             FirebaseInstanceIdService performs security checks at runtime,
-272             no need for explicit permissions despite exported="true"
-273        -->
-274        <service
-274-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:56:9-62:19
-275            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-275-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:57:13-77
-276            android:exported="true" >
-276-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:58:13-36
-277            <intent-filter android:priority="-500" >
-277-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:52:13-54:29
-278                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-278-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:17-80
-278-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:25-77
-279            </intent-filter>
-280        </service>
-281
-282        <provider
-282-->[com.google.firebase:firebase-common:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/3460f72ba36aafda259a7a3124f7b4f1/firebase-common-16.0.0/AndroidManifest.xml:9:9-13:39
-283            android:name="com.google.firebase.provider.FirebaseInitProvider"
-283-->[com.google.firebase:firebase-common:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/3460f72ba36aafda259a7a3124f7b4f1/firebase-common-16.0.0/AndroidManifest.xml:10:13-77
-284            android:authorities="com.safeformacion.mobile.firebaseinitprovider"
-284-->[com.google.firebase:firebase-common:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/3460f72ba36aafda259a7a3124f7b4f1/firebase-common-16.0.0/AndroidManifest.xml:11:13-72
-285            android:exported="false"
-285-->[com.google.firebase:firebase-common:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/3460f72ba36aafda259a7a3124f7b4f1/firebase-common-16.0.0/AndroidManifest.xml:12:13-37
-286            android:initOrder="100" />
-286-->[com.google.firebase:firebase-common:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/3460f72ba36aafda259a7a3124f7b4f1/firebase-common-16.0.0/AndroidManifest.xml:13:13-36
-287
-288        <activity
-288-->[com.google.android.gms:play-services-base:15.0.1] /home/neitherk/.gradle/caches/transforms-2/files-2.1/589671c026e7d7b4cff8fdb4a433e50d/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
-289            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-289-->[com.google.android.gms:play-services-base:15.0.1] /home/neitherk/.gradle/caches/transforms-2/files-2.1/589671c026e7d7b4cff8fdb4a433e50d/play-services-base-15.0.1/AndroidManifest.xml:24:13-79
-290            android:exported="false"
-290-->[com.google.android.gms:play-services-base:15.0.1] /home/neitherk/.gradle/caches/transforms-2/files-2.1/589671c026e7d7b4cff8fdb4a433e50d/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
-291            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-291-->[com.google.android.gms:play-services-base:15.0.1] /home/neitherk/.gradle/caches/transforms-2/files-2.1/589671c026e7d7b4cff8fdb4a433e50d/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
-292
-293        <meta-data
-293-->[com.google.android.gms:play-services-basement:15.0.1] /home/neitherk/.gradle/caches/transforms-2/files-2.1/c60d27a287df44a849f628f29a097d4c/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
-294            android:name="com.google.android.gms.version"
-294-->[com.google.android.gms:play-services-basement:15.0.1] /home/neitherk/.gradle/caches/transforms-2/files-2.1/c60d27a287df44a849f628f29a097d4c/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
-295            android:value="@integer/google_play_services_version" />
-295-->[com.google.android.gms:play-services-basement:15.0.1] /home/neitherk/.gradle/caches/transforms-2/files-2.1/c60d27a287df44a849f628f29a097d4c/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
-296    </application>
-297
-298</manifest>
+222
+223        <meta-data
+223-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:9-100
+224            android:name="firebase_analytics_collection_deactivated"
+224-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:20-76
+225            android:value="true" />
+225-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:77-97
+226
+227        <provider
+228            android:name="com.darryncampbell.cordova.plugin.intent.CordovaPluginIntentFileProvider"
+228-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:60:168-255
+229            android:authorities="com.safeformacion.mobile.darryncampbell.cordova.plugin.intent.fileprovider"
+229-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:60:19-107
+230            android:exported="false"
+230-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:60:108-132
+231            android:grantUriPermissions="true" >
+231-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:60:133-167
+232            <meta-data
+232-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:13-134
+233                android:name="android.support.FILE_PROVIDER_PATHS"
+233-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:24-74
+234                android:resource="@xml/provider_paths" />
+234-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:75-131
+235        </provider>
+236
+237        <activity
+237-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:46:9-52:63
+238            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+238-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:47:13-74
+239            android:clearTaskOnLaunch="true"
+239-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:48:13-45
+240            android:screenOrientation="sensorLandscape"
+240-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:49:13-56
+241            android:stateNotNeeded="true"
+241-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:50:13-42
+242            android:theme="@style/zxing_CaptureTheme"
+242-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:51:13-54
+243            android:windowSoftInputMode="stateAlwaysHidden" />
+243-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:52:13-60
+244        <!--
+245             FirebaseMessagingService performs security checks at runtime,
+246             no need for explicit permissions despite exported="true"
+247        -->
+248        <service
+248-->[com.google.firebase:firebase-messaging:17.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/8a8abe27abb58bdb3b8099d8a4efbfd6/firebase-messaging-17.0.0/AndroidManifest.xml:28:9-34:19
+249            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+249-->[com.google.firebase:firebase-messaging:17.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/8a8abe27abb58bdb3b8099d8a4efbfd6/firebase-messaging-17.0.0/AndroidManifest.xml:29:13-82
+250            android:exported="true" >
+250-->[com.google.firebase:firebase-messaging:17.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/8a8abe27abb58bdb3b8099d8a4efbfd6/firebase-messaging-17.0.0/AndroidManifest.xml:30:13-36
+251            <intent-filter android:priority="-500" >
+251-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:44:13-46:29
+252                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+252-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:45:17-78
+252-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:45:25-75
+253            </intent-filter>
+254        </service>
+255        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+255-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:35:9-39:19
+255-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:35:18-89
+256            <meta-data
+256-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:36:13-38:85
+257                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+257-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:37:17-96
+258                android:value="com.google.firebase.components.ComponentRegistrar" />
+258-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:38:17-82
+259        </service>
+260
+261        <receiver
+261-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:41:9-50:20
+262            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+262-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:42:13-78
+263            android:exported="true"
+263-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:43:13-36
+264            android:permission="com.google.android.c2dm.permission.SEND" >
+264-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:44:13-73
+265            <intent-filter>
+265-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:45:13-49:29
+266                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+266-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:46:17-81
+266-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:46:25-78
+267
+268                <category android:name="com.safeformacion.mobile" />
+268-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:48:17-61
+268-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:48:27-58
+269            </intent-filter>
+270        </receiver>
+271        <!--
+272             FirebaseInstanceIdService performs security checks at runtime,
+273             no need for explicit permissions despite exported="true"
+274        -->
+275        <service
+275-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:56:9-62:19
+276            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+276-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:57:13-77
+277            android:exported="true" >
+277-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:58:13-36
+278            <intent-filter android:priority="-500" >
+278-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:49:13-51:29
+279                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+279-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:50:17-80
+279-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:50:25-77
+280            </intent-filter>
+281        </service>
+282
+283        <provider
+283-->[com.google.firebase:firebase-common:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/3460f72ba36aafda259a7a3124f7b4f1/firebase-common-16.0.0/AndroidManifest.xml:9:9-13:39
+284            android:name="com.google.firebase.provider.FirebaseInitProvider"
+284-->[com.google.firebase:firebase-common:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/3460f72ba36aafda259a7a3124f7b4f1/firebase-common-16.0.0/AndroidManifest.xml:10:13-77
+285            android:authorities="com.safeformacion.mobile.firebaseinitprovider"
+285-->[com.google.firebase:firebase-common:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/3460f72ba36aafda259a7a3124f7b4f1/firebase-common-16.0.0/AndroidManifest.xml:11:13-72
+286            android:exported="false"
+286-->[com.google.firebase:firebase-common:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/3460f72ba36aafda259a7a3124f7b4f1/firebase-common-16.0.0/AndroidManifest.xml:12:13-37
+287            android:initOrder="100" />
+287-->[com.google.firebase:firebase-common:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/3460f72ba36aafda259a7a3124f7b4f1/firebase-common-16.0.0/AndroidManifest.xml:13:13-36
+288
+289        <activity
+289-->[com.google.android.gms:play-services-base:15.0.1] /home/neitherk/.gradle/caches/transforms-2/files-2.1/589671c026e7d7b4cff8fdb4a433e50d/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+290            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+290-->[com.google.android.gms:play-services-base:15.0.1] /home/neitherk/.gradle/caches/transforms-2/files-2.1/589671c026e7d7b4cff8fdb4a433e50d/play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+291            android:exported="false"
+291-->[com.google.android.gms:play-services-base:15.0.1] /home/neitherk/.gradle/caches/transforms-2/files-2.1/589671c026e7d7b4cff8fdb4a433e50d/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+292            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+292-->[com.google.android.gms:play-services-base:15.0.1] /home/neitherk/.gradle/caches/transforms-2/files-2.1/589671c026e7d7b4cff8fdb4a433e50d/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+293
+294        <meta-data
+294-->[com.google.android.gms:play-services-basement:15.0.1] /home/neitherk/.gradle/caches/transforms-2/files-2.1/c60d27a287df44a849f628f29a097d4c/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+295            android:name="com.google.android.gms.version"
+295-->[com.google.android.gms:play-services-basement:15.0.1] /home/neitherk/.gradle/caches/transforms-2/files-2.1/c60d27a287df44a849f628f29a097d4c/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+296            android:value="@integer/google_play_services_version" />
+296-->[com.google.android.gms:play-services-basement:15.0.1] /home/neitherk/.gradle/caches/transforms-2/files-2.1/c60d27a287df44a849f628f29a097d4c/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+297    </application>
+298
+299</manifest>
