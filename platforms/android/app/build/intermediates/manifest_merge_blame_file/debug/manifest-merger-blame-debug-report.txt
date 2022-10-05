@@ -308,153 +308,153 @@
 151            </intent-filter>
 152        </activity>
 153
-154        <provider
-155            android:name="com.darryncampbell.cordova.plugin.intent.CordovaPluginIntentFileProvider"
-155-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:168-255
-156            android:authorities="com.cenaform.mobile.darryncampbell.cordova.plugin.intent.fileprovider"
-156-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:19-107
-157            android:exported="false"
-157-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:108-132
-158            android:grantUriPermissions="true" >
-158-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:133-167
-159            <meta-data
-159-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:13-116
-160                android:name="android.support.FILE_PROVIDER_PATHS"
-160-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:24-74
-161                android:resource="@xml/provider_paths" />
-161-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:75-113
-162        </provider>
-163        <provider
-164            android:name="de.appplant.cordova.plugin.notification.util.AssetProvider"
-164-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:146-219
-165            android:authorities="com.cenaform.mobile.localnotifications.provider"
-165-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:19-85
-166            android:exported="false"
-166-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:86-110
-167            android:grantUriPermissions="true" >
-167-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:111-145
-168            <meta-data
-168-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:13-116
-169                android:name="android.support.FILE_PROVIDER_PATHS"
-169-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:24-74
-170                android:resource="@xml/localnotification_provider_paths" />
-170-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:75-113
-171        </provider>
-172
-173        <receiver
-173-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:9-122
-174            android:name="de.appplant.cordova.plugin.localnotification.TriggerReceiver"
-174-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:44-119
-175            android:exported="false" />
-175-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:19-43
-176        <receiver
-176-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:35:9-120
-177            android:name="de.appplant.cordova.plugin.localnotification.ClearReceiver"
-177-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:35:44-117
-178            android:exported="false" />
-178-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:35:19-43
+154        <receiver
+154-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:9-122
+155            android:name="de.appplant.cordova.plugin.localnotification.TriggerReceiver"
+155-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:44-119
+156            android:exported="false" />
+156-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:19-43
+157        <receiver
+157-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:9-120
+158            android:name="de.appplant.cordova.plugin.localnotification.ClearReceiver"
+158-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:44-117
+159            android:exported="false" />
+159-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:19-43
+160
+161        <service
+161-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:30:9-119
+162            android:name="de.appplant.cordova.plugin.localnotification.ClickReceiver"
+162-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:30:43-116
+163            android:exported="false" />
+163-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:30:18-42
+164
+165        <receiver
+165-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:9-36:20
+166            android:name="de.appplant.cordova.plugin.localnotification.RestoreReceiver"
+166-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:75-150
+167            android:directBootAware="true"
+167-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:19-49
+168            android:exported="false" >
+168-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:50-74
+169            <intent-filter>
+169-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:32:13-35:29
+170                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+170-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:33:17-86
+170-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:33:25-83
+171                <action android:name="android.intent.action.BOOT_COMPLETED" />
+171-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:17-79
+171-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:25-76
+172            </intent-filter>
+173        </receiver>
+174
+175        <activity
+176            android:name="com.adobe.phonegap.push.PushHandlerActivity"
+176-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:43-101
+177            android:exported="true"
+177-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:19-42
+178            android:permission="com.cenaform.mobile.permission.PushHandlerActivity" />
+178-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:102-170
 179
-180        <service
-180-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:36:9-119
-181            android:name="de.appplant.cordova.plugin.localnotification.ClickReceiver"
-181-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:36:43-116
-182            android:exported="false" />
-182-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:36:18-42
-183
-184        <receiver
-184-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:9-42:20
-185            android:name="de.appplant.cordova.plugin.localnotification.RestoreReceiver"
-185-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:75-150
-186            android:directBootAware="true"
-186-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:19-49
-187            android:exported="false" >
-187-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:50-74
-188            <intent-filter>
-188-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:38:13-41:29
-189                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
-189-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:39:17-86
-189-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:39:25-83
-190                <action android:name="android.intent.action.BOOT_COMPLETED" />
-190-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:17-79
-190-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:25-76
+180        <receiver android:name="com.adobe.phonegap.push.BackgroundActionButtonHandler" />
+180-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:38:9-90
+180-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:38:19-87
+181        <receiver android:name="com.adobe.phonegap.push.PushDismissedHandler" />
+181-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:39:9-81
+181-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:39:19-78
+182
+183        <service android:name="com.adobe.phonegap.push.FCMService" >
+183-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:9-44:19
+183-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:18-67
+184            <intent-filter>
+184-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:41:13-43:29
+185                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+185-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:42:17-78
+185-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:42:25-75
+186            </intent-filter>
+187        </service>
+188        <service android:name="com.adobe.phonegap.push.PushInstanceIDListenerService" >
+188-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:45:9-49:19
+188-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:45:18-86
+189            <intent-filter>
+189-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:46:13-48:29
+190                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+190-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:47:17-80
+190-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:47:25-77
 191            </intent-filter>
-192        </receiver>
+192        </service>
 193
-194        <activity
-195            android:name="com.adobe.phonegap.push.PushHandlerActivity"
-195-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:43-101
-196            android:exported="true"
-196-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:19-42
-197            android:permission="com.cenaform.mobile.permission.PushHandlerActivity" />
-197-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:102-170
-198
-199        <receiver android:name="com.adobe.phonegap.push.BackgroundActionButtonHandler" />
-199-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:44:9-90
-199-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:44:19-87
-200        <receiver android:name="com.adobe.phonegap.push.PushDismissedHandler" />
-200-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:45:9-81
-200-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:45:19-78
-201
-202        <service android:name="com.adobe.phonegap.push.FCMService" >
-202-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:46:9-50:19
-202-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:46:18-67
-203            <intent-filter>
-203-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:47:13-49:29
-204                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-204-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:48:17-78
-204-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:48:25-75
-205            </intent-filter>
-206        </service>
-207        <service android:name="com.adobe.phonegap.push.PushInstanceIDListenerService" >
-207-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:9-55:19
-207-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:18-86
-208            <intent-filter>
-208-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:52:13-54:29
-209                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-209-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:17-80
-209-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:25-77
-210            </intent-filter>
-211        </service>
+194        <provider
+195            android:name="org.apache.cordova.camera.FileProvider"
+195-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:50:149-202
+196            android:authorities="com.cenaform.mobile.cordova.plugin.camera.provider"
+196-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:50:19-88
+197            android:exported="false"
+197-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:50:89-113
+198            android:grantUriPermissions="true" >
+198-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:50:114-148
+199            <meta-data
+199-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:13-123
+200                android:name="android.support.FILE_PROVIDER_PATHS"
+200-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:24-74
+201                android:resource="@xml/camera_provider_paths" />
+201-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:75-120
+202        </provider>
+203        <provider
+204            android:name="io.github.pwlin.cordova.plugins.fileopener2.FileProvider"
+204-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:139-210
+205            android:authorities="com.cenaform.mobile.fileOpener2.provider"
+205-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:19-78
+206            android:exported="false"
+206-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:79-103
+207            android:grantUriPermissions="true" >
+207-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:104-138
+208            <meta-data
+208-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:13-123
+209                android:name="android.support.FILE_PROVIDER_PATHS"
+209-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:24-74
+210                android:resource="@xml/opener_paths" />
+210-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:75-120
+211        </provider>
 212
-213        <provider
-214            android:name="org.apache.cordova.camera.FileProvider"
-214-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:149-202
-215            android:authorities="com.cenaform.mobile.cordova.plugin.camera.provider"
-215-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:19-88
-216            android:exported="false"
-216-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:89-113
-217            android:grantUriPermissions="true" >
-217-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:114-148
-218            <meta-data
-218-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:13-116
-219                android:name="android.support.FILE_PROVIDER_PATHS"
-219-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:24-74
-220                android:resource="@xml/camera_provider_paths" />
-220-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:75-113
-221        </provider>
-222        <provider
-223            android:name="io.github.pwlin.cordova.plugins.fileopener2.FileProvider"
-223-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:139-210
-224            android:authorities="com.cenaform.mobile.fileOpener2.provider"
-224-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:19-78
-225            android:exported="false"
-225-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:79-103
-226            android:grantUriPermissions="true" >
-226-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:104-138
-227            <meta-data
-227-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:13-116
-228                android:name="android.support.FILE_PROVIDER_PATHS"
-228-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:24-74
-229                android:resource="@xml/opener_paths" />
-229-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:75-113
-230        </provider>
-231
-232        <meta-data
-232-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:62:9-100
-233            android:name="firebase_analytics_collection_deactivated"
-233-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:62:20-76
-234            android:value="true" />
-234-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:62:77-97
+213        <meta-data
+213-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:9-100
+214            android:name="firebase_analytics_collection_deactivated"
+214-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:20-76
+215            android:value="true" />
+215-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:77-97
+216
+217        <provider
+218            android:name="com.darryncampbell.cordova.plugin.intent.CordovaPluginIntentFileProvider"
+218-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:57:168-255
+219            android:authorities="com.cenaform.mobile.darryncampbell.cordova.plugin.intent.fileprovider"
+219-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:57:19-107
+220            android:exported="false"
+220-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:57:108-132
+221            android:grantUriPermissions="true" >
+221-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:57:133-167
+222            <meta-data
+222-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:13-123
+223                android:name="android.support.FILE_PROVIDER_PATHS"
+223-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:24-74
+224                android:resource="@xml/provider_paths" />
+224-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:75-120
+225        </provider>
+226        <provider
+227            android:name="de.appplant.cordova.plugin.notification.util.AssetProvider"
+227-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:60:146-219
+228            android:authorities="com.cenaform.mobile.localnotifications.provider"
+228-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:60:19-85
+229            android:exported="false"
+229-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:60:86-110
+230            android:grantUriPermissions="true" >
+230-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:60:111-145
+231            <meta-data
+231-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:13-123
+232                android:name="android.support.FILE_PROVIDER_PATHS"
+232-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:24-74
+233                android:resource="@xml/localnotification_provider_paths" />
+233-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:75-120
+234        </provider>
 235
 236        <activity
 236-->[com.journeyapps:zxing-android-embedded:3.3.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/AndroidManifest.xml:46:9-52:63
@@ -481,10 +481,10 @@
 249            android:exported="true" >
 249-->[com.google.firebase:firebase-messaging:17.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/8a8abe27abb58bdb3b8099d8a4efbfd6/firebase-messaging-17.0.0/AndroidManifest.xml:30:13-36
 250            <intent-filter android:priority="-500" >
-250-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:47:13-49:29
+250-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:41:13-43:29
 251                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-251-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:48:17-78
-251-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:48:25-75
+251-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:42:17-78
+251-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:42:25-75
 252            </intent-filter>
 253        </service>
 254        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
@@ -528,10 +528,10 @@
 276            android:exported="true" >
 276-->[com.google.firebase:firebase-iid:16.0.0] /home/neitherk/.gradle/caches/transforms-2/files-2.1/1b236887e95fdb12649889b141b1cfde/firebase-iid-16.0.0/AndroidManifest.xml:58:13-36
 277            <intent-filter android:priority="-500" >
-277-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:52:13-54:29
+277-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:46:13-48:29
 278                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-278-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:17-80
-278-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:25-77
+278-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:47:17-80
+278-->/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:47:25-77
 279            </intent-filter>
 280        </service>
 281
