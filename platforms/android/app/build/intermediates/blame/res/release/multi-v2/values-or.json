@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-or/values-or.xml",
+            "map": [
+                {
+                    "source": "/home/neitherk/.gradle/caches/transforms-2/files-2.1/8a8abe27abb58bdb3b8099d8a4efbfd6/firebase-messaging-17.0.0/res/values-or/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "102",
+                        "endOffsets": "307"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "106",
+                        "endOffsets": "157"
+                    }
+                }
+            ]
+        }
+    ]
+}

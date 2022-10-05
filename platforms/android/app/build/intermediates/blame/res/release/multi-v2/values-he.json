@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-he/values-he.xml",
+            "map": [
+                {
+                    "source": "/home/neitherk/.gradle/caches/transforms-2/files-2.1/2a408ac06d0d14d964eff06a45248eb0/zxing-android-embedded-3.3.0/res/values-he/values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,111,161,296",
+                        "endColumns": "55,49,134,89",
+                        "endOffsets": "106,156,291,381"
+                    }
+                }
+            ]
+        }
+    ]
+}
