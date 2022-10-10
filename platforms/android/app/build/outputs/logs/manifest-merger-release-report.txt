@@ -1,57 +1,57 @@
 -- Merging decision tree log ---
-provider#com.darryncampbell.cordova.plugin.intent.CordovaPluginIntentFileProvider
+provider#de.appplant.cordova.plugin.notification.util.AssetProvider
 INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:9-30:20
 	android:grantUriPermissions
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:133-167
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:111-145
 	android:authorities
 		INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:19-107
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:19-85
 	android:exported
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:108-132
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:86-110
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:168-255
-provider#de.appplant.cordova.plugin.notification.util.AssetProvider
-INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:9-33:20
-	android:grantUriPermissions
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:111-145
-	android:authorities
-		INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:19-85
-	android:exported
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:86-110
-	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:146-219
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:28:146-219
 activity#com.adobe.phonegap.push.PushHandlerActivity
-INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:9-173
+INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:9-173
 	android:exported
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:19-42
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:19-42
 	android:permission
 		INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:102-170
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:102-170
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:43-101
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:43-101
 provider#org.apache.cordova.camera.FileProvider
+INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:9-55:20
+	android:grantUriPermissions
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:114-148
+	android:authorities
+		INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:19-88
+	android:exported
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:89-113
+	android:name
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:149-202
+provider#io.github.pwlin.cordova.plugins.fileopener2.FileProvider
 INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:9-58:20
 	android:grantUriPermissions
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:114-148
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:104-138
 	android:authorities
 		INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:19-88
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:19-78
 	android:exported
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:89-113
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:79-103
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:149-202
-provider#io.github.pwlin.cordova.plugins.fileopener2.FileProvider
-INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:9-61:20
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:56:139-210
+provider#com.darryncampbell.cordova.plugin.intent.CordovaPluginIntentFileProvider
+INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:60:9-62:20
 	android:grantUriPermissions
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:104-138
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:60:133-167
 	android:authorities
 		INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:19-78
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:60:19-107
 	android:exported
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:79-103
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:60:108-132
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:139-210
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:60:168-255
 manifest
 ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:2:1-91:12
 INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:2:1-91:12
@@ -213,75 +213,75 @@ ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host: +data:pathPrefix:/+data:scheme: 
 ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:21:13-26:29
 receiver#de.appplant.cordova.plugin.localnotification.TriggerReceiver
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:9-122
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:9-122
 	android:exported
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:19-43
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:19-43
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:44-119
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:31:44-119
 receiver#de.appplant.cordova.plugin.localnotification.ClearReceiver
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:35:9-120
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:32:9-120
 	android:exported
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:35:19-43
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:32:19-43
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:35:44-117
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:32:44-117
 service#de.appplant.cordova.plugin.localnotification.ClickReceiver
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:36:9-119
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:33:9-119
 	android:exported
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:36:18-42
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:33:18-42
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:36:43-116
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:33:43-116
 receiver#de.appplant.cordova.plugin.localnotification.RestoreReceiver
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:9-42:20
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:9-39:20
 	android:exported
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:50-74
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:50-74
 	android:directBootAware
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:19-49
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:19-49
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:75-150
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:34:75-150
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:38:13-41:29
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:35:13-38:29
 action#android.intent.action.LOCKED_BOOT_COMPLETED
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:39:17-86
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:36:17-86
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:39:25-83
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:36:25-83
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:17-79
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:17-79
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:40:25-76
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:37:25-76
 receiver#com.adobe.phonegap.push.BackgroundActionButtonHandler
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:44:9-90
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:41:9-90
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:44:19-87
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:41:19-87
 receiver#com.adobe.phonegap.push.PushDismissedHandler
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:45:9-81
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:42:9-81
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:45:19-78
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:42:19-78
 service#com.adobe.phonegap.push.FCMService
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:46:9-50:19
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:9-47:19
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:46:18-67
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:43:18-67
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:47:13-49:29
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:44:13-46:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:48:17-78
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:45:17-78
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:48:25-75
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:45:25-75
 service#com.adobe.phonegap.push.PushInstanceIDListenerService
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:9-55:19
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:48:9-52:19
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:51:18-86
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:48:18-86
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:52:13-54:29
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:49:13-51:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:17-80
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:50:17-80
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:53:25-77
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:50:25-77
 meta-data#firebase_analytics_collection_deactivated
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:62:9-100
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:9-100
 	android:value
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:62:77-97
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:77-97
 	android:name
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:62:20-76
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:59:20-76
 uses-feature#android.hardware.bluetooth
 ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:64:5-88
 	android:required
@@ -453,9 +453,9 @@ INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platfo
 		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:13-116
+ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:13-134
 	android:resource
-		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:75-113
+		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:75-131
 	android:name
 		ADDED from /home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5/platforms/android/app/src/main/AndroidManifest.xml:29:24-74
 action#android.intent.action.GET_CONTENT

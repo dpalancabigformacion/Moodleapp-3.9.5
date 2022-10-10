@@ -21,7 +21,7 @@
       "properties": {
         "packageId": "com.bigtv.mobile",
         "split": "",
-        "minSdkVersion": "22"
+        "minSdkVersion": "31"
       }
     }
   ]
