@@ -142,12 +142,12 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
-apply from: "../cordova-android-support-gradle-release/mobile-cordova-android-support-gradle-release.gradle"
 apply from: "../cordova-plugin-badge/mobile-badge.gradle"
 apply from: "../cordova-plugin-local-notification/mobile-localnotification.gradle"
 apply from: "../cordova-plugin-qrscanner/mobile-qrscanner.gradle"
 apply from: "../cordova-support-google-services/mobile-build.gradle"
 apply from: "../phonegap-plugin-multidex/mobile-multidex.gradle"
+apply from: "../cordova-android-support-gradle-release/mobile-cordova-android-support-gradle-release.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()
@@ -352,14 +352,14 @@ dependencies {
 
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
-    implementation "com.android.support:support-v4:27.1.0"
     implementation "com.android.support:support-v4:27.+"
     implementation "com.android.support:support-v4:26.+"
-    implementation "com.android.support:support-v4:28.+"
-    implementation "com.android.support:appcompat-v7:28.+"
     implementation "com.android.support:support-v13:27.+"
     implementation "me.leolin:ShortcutBadger:1.1.17@aar"
     implementation "com.google.firebase:firebase-messaging:17.0.+"
+    implementation "com.android.support:support-v4:27.1.0"
+    implementation "com.android.support:support-v4:28.+"
+    implementation "com.android.support:appcompat-v7:28.+"
     // SUB-PROJECT DEPENDENCIES END
 }
 

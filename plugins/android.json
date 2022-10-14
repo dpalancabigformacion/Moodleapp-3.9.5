@@ -7,17 +7,10 @@
     "files": {}
   },
   "installed_plugins": {
-    "com-darryncampbell-cordova-plugin-intent": {
-      "PACKAGE_NAME": "com.cenaform.mobile"
-    },
-    "cordova-android-support-gradle-release": {
-      "ANDROID_SUPPORT_VERSION": "27.+",
+    "cordova-plugin-advanced-http": {
       "PACKAGE_NAME": "com.cenaform.mobile"
     },
     "cordova-clipboard": {
-      "PACKAGE_NAME": "com.cenaform.mobile"
-    },
-    "cordova-plugin-advanced-http": {
       "PACKAGE_NAME": "com.cenaform.mobile"
     },
     "cordova-plugin-badge": {
@@ -44,14 +37,8 @@
       "ANDROID_SUPPORT_V4_VERSION": "27.+",
       "PACKAGE_NAME": "com.cenaform.mobile"
     },
-    "cordova-plugin-file-transfer": {
-      "PACKAGE_NAME": "com.cenaform.mobile"
-    },
     "cordova-plugin-geolocation": {
       "GPS_REQUIRED": "false",
-      "PACKAGE_NAME": "com.cenaform.mobile"
-    },
-    "cordova-plugin-globalization": {
       "PACKAGE_NAME": "com.cenaform.mobile"
     },
     "cordova-plugin-inappbrowser": {
@@ -67,16 +54,13 @@
       "ANDROID_SUPPORT_V4_VERSION": "26.+",
       "PACKAGE_NAME": "com.cenaform.mobile"
     },
-    "cordova-plugin-media": {
-      "PACKAGE_NAME": "com.cenaform.mobile"
-    },
     "cordova-plugin-media-capture": {
       "PACKAGE_NAME": "com.cenaform.mobile"
     },
-    "cordova-plugin-network-information": {
+    "cordova-plugin-media": {
       "PACKAGE_NAME": "com.cenaform.mobile"
     },
-    "cordova-plugin-prevent-override": {
+    "cordova-plugin-network-information": {
       "PACKAGE_NAME": "com.cenaform.mobile"
     },
     "cordova-plugin-qrscanner": {
@@ -106,16 +90,32 @@
     "cordova-sqlite-storage": {
       "PACKAGE_NAME": "com.cenaform.mobile"
     },
-    "cordova.plugins.diagnostic": {
-      "ANDROID_SUPPORT_VERSION": "28.+",
+    "phonegap-plugin-push": {
+      "ANDROID_SUPPORT_V13_VERSION": "27.+",
+      "FCM_VERSION": "17.0.+",
+      "PACKAGE_NAME": "com.cenaform.mobile"
+    },
+    "com-darryncampbell-cordova-plugin-intent": {
       "PACKAGE_NAME": "com.cenaform.mobile"
     },
     "nl.kingsquare.cordova.background-audio": {
       "PACKAGE_NAME": "com.cenaform.mobile"
     },
-    "phonegap-plugin-push": {
-      "ANDROID_SUPPORT_V13_VERSION": "27.+",
-      "FCM_VERSION": "17.0.+",
+    "cordova-android-support-gradle-release": {
+      "ANDROID_SUPPORT_VERSION": "27.+",
+      "PACKAGE_NAME": "com.cenaform.mobile"
+    },
+    "cordova.plugins.diagnostic": {
+      "ANDROID_SUPPORT_VERSION": "28.+",
+      "PACKAGE_NAME": "com.cenaform.mobile"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "com.cenaform.mobile"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.cenaform.mobile"
+    },
+    "cordova-plugin-prevent-override": {
       "PACKAGE_NAME": "com.cenaform.mobile"
     }
   },

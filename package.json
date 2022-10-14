@@ -2,10 +2,13 @@
   "name": "moodlemobile",
   "version": "3.9.5",
   "description": "The official app for Moodle.",
-  "author": "Moodle Pty Ltd. <mobile@moodle.com>",
+  "author": {
+    "name": "Moodle Pty Ltd.",
+    "email": "mobile@moodle.com"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moodlehq/moodlemobile2.git"
+    "url": "https://github.com/moodlehq/moodlemobile2.git"
   },
   "license": "Apache-2.0",
   "licenses": [
@@ -101,7 +104,6 @@
     "cordova-plugin-splashscreen": "6.0.0",
     "cordova-plugin-statusbar": "2.4.3",
     "cordova-plugin-whitelist": "1.3.4",
-    "cordova-plugin-wkwebview-cookies": "git+https://github.com/moodlemobile/cordova-plugin-wkwebview-cookies.git",
     "cordova-plugin-zip": "3.1.0",
     "cordova-sqlite-storage": "6.0.0",
     "cordova.plugins.diagnostic": "5.0.2",
@@ -115,8 +117,7 @@
     "rxjs": "6.5.5",
     "ts-md5": "1.2.7",
     "tslib": "2.0.1",
-    "zone.js": "0.10.3",
-    "keytar": "7.2.0"
+    "zone.js": "0.10.3"
   },
   "devDependencies": {
     "@angular-devkit/architect": "0.1101.2",
@@ -145,6 +146,7 @@
     "cordova-plugin-prevent-override": "git+https://github.com/moodlemobile/cordova-plugin-prevent-override.git",
     "cordova-plugin-qrscanner": "git+https://github.com/moodlemobile/cordova-plugin-qrscanner.git#dist",
     "cordova-plugin-wkuserscript": "git+https://github.com/moodlemobile/cordova-plugin-wkuserscript.git",
+    "cordova-plugin-wkwebview-cookies": "git+https://github.com/moodlemobile/cordova-plugin-wkwebview-cookies.git",
     "cordova-support-google-services": "^1.2.1",
     "eslint": "7.25.0",
     "eslint-config-prettier": "8.3.0",
@@ -240,13 +242,5 @@
   },
   "optionalDependencies": {
     "keytar": "7.2.0"
-  },
-  "bugs": {
-    "url": "https://github.com/moodlehq/moodlemobile2/issues"
-  },
-  "homepage": "https://github.com/moodlehq/moodlemobile2#readme",
-  "main": ".eslintrc.js",
-  "directories": {
-    "test": "tests"
   }
 }

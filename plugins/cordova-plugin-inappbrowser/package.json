@@ -1,12 +1,6 @@
 {
-  "_args": [
-    [
-      "git+https://github.com/moodlemobile/cordova-plugin-inappbrowser.git#moodle-ionic5",
-      "/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5"
-    ]
-  ],
   "_from": "git+https://github.com/moodlemobile/cordova-plugin-inappbrowser.git#moodle-ionic5",
-  "_id": "cordova-plugin-inappbrowser@git+https://github.com/moodlemobile/cordova-plugin-inappbrowser.git#a1ac936fd79596fd5841bd424cc782ee84e4a290",
+  "_id": "cordova-plugin-inappbrowser@5.0.0",
   "_inBundle": false,
   "_integrity": "",
   "_location": "/cordova-plugin-inappbrowser",
@@ -20,7 +14,8 @@
     "gitCommittish": "moodle-ionic5"
   },
   "_requiredBy": [
-    "/"
+    "#DEV:/",
+    "#USER"
   ],
   "_resolved": "git+https://github.com/moodlemobile/cordova-plugin-inappbrowser.git#a1ac936fd79596fd5841bd424cc782ee84e4a290",
   "_spec": "git+https://github.com/moodlemobile/cordova-plugin-inappbrowser.git#moodle-ionic5",
@@ -31,6 +26,7 @@
   "bugs": {
     "url": "https://github.com/apache/cordova-plugin-inappbrowser/issues"
   },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-inappbrowser",
     "platforms": [
@@ -41,6 +37,7 @@
       "windows"
     ]
   },
+  "deprecated": false,
   "description": "Cordova InAppBrowser Plugin",
   "devDependencies": {
     "@cordova/eslint-config": "^3.0.0"

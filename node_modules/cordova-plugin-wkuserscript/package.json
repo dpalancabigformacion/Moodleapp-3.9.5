@@ -7,8 +7,8 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "https://github.com/moodlemobile/cordova-plugin-wkuserscript.git",
-    "rawSpec": "https://github.com/moodlemobile/cordova-plugin-wkuserscript.git",
+    "raw": "git+https://github.com/moodlemobile/cordova-plugin-wkuserscript.git",
+    "rawSpec": "git+https://github.com/moodlemobile/cordova-plugin-wkuserscript.git",
     "saveSpec": "git+https://github.com/moodlemobile/cordova-plugin-wkuserscript.git",
     "fetchSpec": "https://github.com/moodlemobile/cordova-plugin-wkuserscript.git",
     "gitCommittish": null
@@ -18,7 +18,7 @@
     "#USER"
   ],
   "_resolved": "git+https://github.com/moodlemobile/cordova-plugin-wkuserscript.git#aa77d0f98a3fb106f2e798e5adf5882f01a2c947",
-  "_spec": "https://github.com/moodlemobile/cordova-plugin-wkuserscript.git",
+  "_spec": "git+https://github.com/moodlemobile/cordova-plugin-wkuserscript.git",
   "_where": "/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5",
   "author": {
     "name": "Moodle Pty Ltd"

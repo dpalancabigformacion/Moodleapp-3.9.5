@@ -389,7 +389,7 @@
     "addon.mod_assign.numberofteamscountdescription": "Daar is {{count}} spanne.",
     "addon.mod_assign.numwords": "{{$a}} woorde",
     "addon.mod_assign.outof": "{{$a.current}} vanuit {{$a.total}}",
-    "addon.mod_assign.overdue": "<font color=\"red\">Opdrag is uitstaande duer: {{$a}}</font>",
+    "addon.mod_assign.overdue": "Opdrag is agterstallig deur: {{$a}}",
     "addon.mod_assign.submission": "Inhandiging",
     "addon.mod_assign.submissioneditable": "Die student kan hul eie inhandiging verander",
     "addon.mod_assign.submissionnoteditable": "Die student kan nie hierdie inhandiging verander nie",

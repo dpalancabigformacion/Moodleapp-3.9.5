@@ -7,8 +7,8 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "https://github.com/moodlemobile/cordova-plugin-local-notification.git#moodle",
-    "rawSpec": "https://github.com/moodlemobile/cordova-plugin-local-notification.git#moodle",
+    "raw": "git+https://github.com/moodlemobile/cordova-plugin-local-notification.git#moodle",
+    "rawSpec": "git+https://github.com/moodlemobile/cordova-plugin-local-notification.git#moodle",
     "saveSpec": "git+https://github.com/moodlemobile/cordova-plugin-local-notification.git#moodle",
     "fetchSpec": "https://github.com/moodlemobile/cordova-plugin-local-notification.git",
     "gitCommittish": "moodle"
@@ -18,7 +18,7 @@
     "#USER"
   ],
   "_resolved": "git+https://github.com/moodlemobile/cordova-plugin-local-notification.git#0bb96b757fb484553ceabf35a59802f7983a2836",
-  "_spec": "https://github.com/moodlemobile/cordova-plugin-local-notification.git#moodle",
+  "_spec": "git+https://github.com/moodlemobile/cordova-plugin-local-notification.git#moodle",
   "_where": "/home/neitherk/Escritorio/Moodleapp_project/Moodleapp-3.9.5",
   "author": {
     "name": "Sebastián Katzer"

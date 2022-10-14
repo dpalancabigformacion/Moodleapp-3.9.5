@@ -40,6 +40,7 @@
     "addon.block_recentactivity.pluginname": "فعالیت‌های اخیر",
     "addon.block_recentlyaccessedcourses.nocourses": "به درسی اخیرا مراجعه نشده",
     "addon.block_recentlyaccessedcourses.pluginname": "درس‌های اخیرا مراجعه‌شده",
+    "addon.block_recentlyaccesseditems.pluginname": "دسترسی‌های اخیر",
     "addon.block_selfcompletion.pluginname": "تکمیل خود",
     "addon.block_sitemainmenu.pluginname": "منوی اصلی",
     "addon.block_starredcourses.nocourses": "درس‌های ستاره‌داری وجود ندارد",
